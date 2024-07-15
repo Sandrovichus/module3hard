@@ -7,7 +7,7 @@ data_structure = [
 ]
 
 
-def calculate_structure_sum(data):  # подсчитывает сумму целочисленных значений и длин строк элементов и ключей в струкутре
+def calculate_structure_sum(data):  # подсчитывает сумму числовых значений и длин строк элементов в струкутре, включая ключи в словарях
     sum_str = 0
     for i in data:
         if isinstance(i, int) or isinstance(i, float):
